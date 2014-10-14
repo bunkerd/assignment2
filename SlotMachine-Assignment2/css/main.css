@@ -1,0 +1,77 @@
+﻿
+body
+{
+
+    background-color:#808080;
+    font-family: 'Slackey';
+}
+
+#container
+{
+    position:absolute;
+    width:320px;
+    height:340px;
+    left:44%;
+    top:39%;
+    margin-left: -160px;
+    margin-top: -160px;
+}
+
+#container #buttons
+{
+    margin-top:3px;
+}
+
+    #container #buttons #play {
+        font-family: 'Slackey';
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+        right: 30px;
+        text-align: center;
+        height: 40px;
+        font-size: 24px;
+        border-radius: 10px;
+        -moz-background-size: auto 62px;
+        -o-background-size: auto 62px;
+        -webkit-background-size: auto 62px;
+        background-size: auto 62px;
+    }
+
+    #container #reels {
+        display: block;
+        position: relative;
+        height: 400px;
+        width:400px;
+        overflow: hidden;
+        text-align: center;
+        background: #000;
+        border: 10px solid;
+        border-color: #777 #999 #666 #999;
+        border-radius: 3px;
+        -moz-box-shadow: #fff 0px 1px 0px;
+        box-shadow: #fff 0px 1px 0px;
+        background-image: url(../images/slots.png);
+    }
+
+    #container #reels canvas
+    {
+        width: 90px;
+        height: 300px;
+        padding:4px;
+        position: relative;
+        background:white;
+
+    top: -15px;
+    left: -124124px;
+}
+
+    .button
+    {
+        position:relative;
+        display:block;
+        text-align:center;
+        color:#fff;
+        box-shadow: inset rgba(255,255,255,0.15) 0px 1px 0px;
+        background-image:linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+    }
